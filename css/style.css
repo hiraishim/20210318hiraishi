@@ -148,38 +148,15 @@ input, select {
   color: #FFFF;
   line-height: 1;
 }
- 
-table {
-  width: 40%;
+*eyecatch.news-title{
+  widows: auto;
+  margin: 0; auto 50px;
+  background-color: #FFF;
+  background-size: auto;
 }
-table th,
-table td {
-  border: 1px solid rgb(0, 0, 0);
-  padding: 20px;
-}
-table th {
-  font-weight: bold;
-  font-size: 10px;
-  color: #000;
-  position: absolute;
-  bottom: 40px; right: 40px;
-  background-color: #fff;
-}
-table td {
-  font-weight: bold;
-  font-size: 10px;
-  color:#fff;
-  position: absolute;
-  bottom: 40px; right: 20px;
-  background-color: rgb(10, 10, 10); 
-}
-*{
-  color: #fff;
-}
-*{
-  text-align: left;
-}
-#eyecatch {
+*eyecatch.news-title {
+  width: auto;
+  margin: 0 auto 50px;
   background-color: #000;
   background-size: cover;
 }
@@ -187,10 +164,22 @@ table td {
   background-color: #000;
   background-size:cover
 }
-.about p{
+#about.section-title h2 {
   font-size: 15px;
-
+  color: #fff
+}
+#about.section-title p{
+  font-size: 10px;
+  color:#FFF
+}
+.about-rightaout-left,
+.about-right{
+  width:45%;
+}
 .about-right img{
-  disoplay: block;
-  width: 100%
+  display: block;
+  width: 50%
+}
+.about-left ol{
+  list-style-position: inside;
 }
