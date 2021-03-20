@@ -129,14 +129,14 @@ input, select {
   color: #f2f2f2;
 }
 #eyecatch {
-  height: 600px;
+  height: 800px;
   background: url(../img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-#eyecatch p {
+.copy h5{
   position: absolute;
   top: 50%;
   left: 30%;
@@ -146,33 +146,50 @@ input, select {
   font-family: Times New Roman, "ＭＳ Ｐゴシック";
   font-weight: bold;
   color: #FFFF;
-  line-height: 1;
+  line-height: 1; 
 }
-*eyecatch.news-title{
-  widows: auto;
-  margin: 0; auto 50px;
-  background-color: #FFF;
-  background-size: auto;
-}
-*eyecatch.news-title {
+.news-title1 p{
+  display: flex;
+  float:right;
   width: auto;
-  margin: 0 auto 50px;
+  height: 2em;
+  margin: 0px; auto;
+  background-color: #FFF;
+  background-size:  auto 150px;
+  color: #000;
+}
+.news-title2 p{
+  display: flex;
+  float: right;
+  width: auto;
+  height: 2em;
+  margin: 0px auto ;
   background-color: #000;
   background-size: cover;
+  color: #FFF;
 }
+
 #about {
+  width:80%
+  margin:0 auto: 50px;
   background-color: #000;
   background-size:cover
 }
-#about.section-title h2 {
-  font-size: 15px;
-  color: #fff
+.about-right {
+  display: flex;
+  justify-content: flex-end;
 }
-#about.section-title p{
-  font-size: 10px;
+.section-title h2 {
+  font-size: 20px;
+  color: #fff
+  
+
+}
+ p{
+  font-size: 15px;
   color:#FFF
 }
-.about-rightaout-left,
+
 .about-right{
   width:45%;
 }
@@ -182,4 +199,173 @@ input, select {
 }
 .about-left ol{
   list-style-position: inside;
+}
+#service {/*service*/
+  background: rgb(241, 241, 241);
+}
+.section-title  {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0;
+  margin: 0;
+}
+.card1{
+  width: 300px;
+  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+  color: #333;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  transition: 0.3s;
+  background-color: #FFF;
+}
+
+.title,
+.text1,
+.text2
+{
+  margin: 0;
+}
+
+.text1 {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #000;
+}
+.text2{
+  padding: 10px 0;
+  font-size: 14px;
+  color: #000;
+}
+.link {
+  display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #000;
+  border: 1px soloid #000;
+} 
+.card2{
+  width: 300px;
+  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+  color: #333;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  transition: 0.3s;
+  background-color: #FFF;
+}
+
+.title2,
+.text3,
+.text4
+{
+  margin: 0;
+}
+
+.text3 {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #000;
+}
+.text4{
+  padding: 10px 0;
+  font-size: 14px;
+  color: #000;
+}
+.link {
+  padding: 5px 20px; /* 上下に5px、左右に20px */
+  font-size: 14px;
+  color: #000;
+  text-decoration: none; /* テキストのスタイルを消す */
+  border: 1px #000 solid; /* 境界線を引く */
+  border-radius: 3px; /* 要素の角を丸くする */
+  transition: 0.4s ease; /* スタイルが変化する時間 */
+}
+
+.link:hover {
+  color: #fff;
+  background: #d7ba7b;
+}
+.service-right img{
+  display: block;
+  width: 30%;
+  position: relative;
+}
+.service-left img{
+  display: block;
+  width: 30%;
+  position: relative;
+}
+/*compayy*/
+#company{
+  background-color: #FFF;
+  background-size:cover ;
+}
+.company-wrap{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-cat{
+  position: relative;
+}
+.company-cat h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  color:#fff;
+}
+.company-cat p{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  color:#fff; 
+}
+.company-cat img{
+  width:180%;
+}
+.recruit-wrap{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recruit-cat{
+ position: relative; 
+}
+.recruit-cat h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  color:#fff; 
+}
+.recruit-cat p{
+ position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  color:#fff;  
+}
+.recruit-cat img{
+  width: 30%;
 }
