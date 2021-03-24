@@ -136,9 +136,9 @@ input, select {
   position: relative;
 }
 
-.copy h5{
+.copy p{
   position: absolute;
-  top: 50%;
+  top: 500px;
   left: 30%;
   transform: translate(-50%, -50%);
   font-size: 40px;
@@ -148,54 +148,87 @@ input, select {
   color: #FFFF;
   line-height: 1; 
 }
-.news-title1 p{
-  display: flex;
-  float:right;
-  width: auto;
-  height: 2em;
-  margin: 0px; auto;
-  background-color: #FFF;
-  background-size:  auto 150px;
-  color: #000;
+/*ニュース全体の設定*/
+.f-container{
+	display: flex;
 }
-.news-title2 p{
-  display: flex;
-  float: right;
+.f-news1{
+  font-size: 14px;
+  position: relative;
+  margin-top: 750px; 
+  margin-left: 70%;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0%;
+  padding-right: 10px;
+  background-color: #FFF;
+  color: #000;
+  
+}
+.f-news2{
+  position: absolute;
+  right: 2px;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   width: auto;
-  height: 2em;
-  margin: 0px auto ;
   background-color: #000;
-  background-size: cover;
   color: #FFF;
 }
-
+/*section1*/
 #about {
-  width:80%
+  width:100%
   margin:0 auto: 50px;
   background-color: #000;
-  background-size:cover
+  background-size:cover;
+  position:relative;
 }
 .about-right {
+  position: absolute;
+  right: 20px;
+  top: 100px;
   display: flex;
   justify-content: flex-end;
 }
-.section-title h2 {
+.section-title h1 {
   font-size: 20px;
-  color: #fff
-  
-
-}
- p{
-  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  text-align: left;
+  color: #fff;
+ }
+ 
+ .section-title p {
+  margin-left: 150px;
+  width: 700px;
+  font-size: 14px;
+  text-align: left;
   color:#FFF
+ }
+.mission{
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 70px;
+  width: 100px;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right:10px ;
+  padding-bottom: 10px;
+  background-color: #FFF;
+  color: #000;
 }
 
 .about-right{
   width:45%;
 }
 .about-right img{
-  display: block;
-  width: 50%
+  position: absolute;
+  width: 300px;height: auto;
+  top: 70px;
 }
 .about-left ol{
   list-style-position: inside;
@@ -203,16 +236,26 @@ input, select {
 #service {/*service*/
   background: rgb(241, 241, 241);
 }
+
 .section-title  {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  padding: 40px 0;
+  padding: 10px 0;
   margin: 0;
 }
+.service-right img{
+  width: 50%;
+  position: relative;
+  margin-top: 0;
+  margin-left: 670px;
+}
 .card1{
-  width: 300px;
-  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+  position: relative;
+  top: -300px;
+  left: 400px;
+  width: 350px;
+  padding: 30px 30px 30px; /* 上30px 左右30px 下30px */
   color: #333;
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
   border-radius: 3px;
@@ -238,16 +281,27 @@ input, select {
   color: #000;
 }
 .link {
+  width: 100px;
   display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
   text-align: center;
   margin: 10px 0;
+  margin-left: 100px;
   font-size: 14px;
   color: #000;
   border: 1px soloid #000;
 } 
+
+.service-left img{
+  width: 50%;
+  position: relative;
+  top: 10px;
+}
 .card2{
-  width: 300px;
-  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+  position: relative;
+  top: -300px;
+  left:600px;
+  width: 350px;
+  padding: 30px 30px 30px; /* 上30px 左右30px 下30px */
   color: #333;
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
   border-radius: 3px;
@@ -286,86 +340,177 @@ input, select {
   color: #fff;
   background: #d7ba7b;
 }
-.service-right img{
-  display: block;
-  width: 30%;
-  position: relative;
-}
-.service-left img{
-  display: block;
-  width: 30%;
-  position: relative;
-}
 /*compayy*/
 #company{
-  background-color: #FFF;
-  background-size:cover ;
+  background-color: #fff;
 }
-.company-wrap{
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+*{
+  box-sizing:boeder-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+ 
 }
-.company-cat{
+section{
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  margin: 0px;
+}
+.flex-container{
+ display: flex; 
+ justify-content: space-around;
+}
+.flex-item{
+  width: 500px; height: 100px;
+  object-fit:cover;
+  background-image: url(img/company.jpeg);
+  background-size: cover;
+  flex: basis: 50%;
+  text-align:center;
+}
+.company-img{
+  width: 500px;height: 100px;
+  object-fit: cover;
+}
+.recruit-img{
+  width:500px;height: 100px;
+  object-fit: cover;
+}
+.flex-item h2{
+ position: absolute;
+ top:530px;
+ left: 300px;
+ font-size: 20px;
+ font-weight: bold;
+ color: #fff;
+}
+.flex-item p{
+position: absolute;
+top: 560px; left:310px;
+font-size: 15px;
+color: #fff;
+}
+
+.flex-item{
+  position: relative;
+  top: -300px;
+  width: 100%;
+  background-image: url(img/recruit.jpg);
+  padding-top: 500px;
+  padding-bottom: 10px;
+  flex: basis: 50;
+}
+#FAQ{
+  background-color: black;
+  width: 1000px;height: 100px;
+  object-fit: cover;
+  margin-left: 10%;
   position: relative;
 }
-.company-cat h1{
+.FAQ1 p{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin: 0;
-  padding: 0;
-  color:#fff;
+  left: 100px;
+  top: 40px;
+  font-size: 20px;
+  color: #FFF;
 }
-.company-cat p{
+.FAQ2 p{
+  position: relative;
+  top: 40px;
+  left: 500px;
+  font-size: 15px;
+  color: #fff;
+}
+#contact
+ {
+  margin-top: 50px;
+  height: 600px;width:100%;
+  padding-top: 100px;
+  object-fit: cover;
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.phrase h3{
   position: absolute;
-  top: 70%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin: 0;
-  padding: 0;
-  color:#fff; 
+  top: 10%;
+  left: 48%;
+  transform: translate(-20%, -50%);
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align:center ;
+  color: #FFF;
+  font-size: 30px;
 }
-.company-cat img{
-  width:180%;
-}
-.recruit-wrap{
+.phrase h2{
+  position: absolute;
+  top: 30%;
+  left: 47%;
+  padding: top 30px; 
   text-align: center;
+  color: #FFF;
+  font-size: 15px;
+}
+.phrase h1{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  padding-top: 30px;
+  text-align: center;
+  color: #FFF;
+  font-size: 20px;
+}
+.phrase p{
+ position: absolute;
+  top: 50%;
+  left: 20%;
+  padding-top: 40px;
+  text-align: center;
+  color:#FFF;
+  font-size: 10px;
+}
+.footer {
+  height: 70px;
+  background: #000;
+}
+
+.footer-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.recruit-cat{
- position: relative; 
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
 }
-.recruit-cat h1{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin: 0;
-  padding: 0;
-  color:#fff; 
+
+.footer-nav ul{
+  display: flex;
 }
-.recruit-cat p{
- position: absolute;
-  top: 70%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin: 0;
-  padding: 0;
-  color:#fff;  
+
+.footer-nav li {
+  margin-right: 35px;
+  font-size: 16px;
 }
-.recruit-cat img{
-  width: 30%;
+
+.footer-nav a {
+  color: #f2f2f2;
+}
+
+.copyright{
+  height: 15px;
+  background: black;
+  text-align: center;
+}
+.copyright p{
+  color: #FFF;
+  font-size: 8px;
+  text-align: center;
 }
