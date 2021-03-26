@@ -179,8 +179,8 @@ input, select {
 }
 /*section1*/
 #about {
-  width:100%
-  margin:0 auto: 50px;
+  width:100%;
+  margin:0%;
   background-color: #000;
   background-size:cover;
   position:relative;
@@ -248,7 +248,7 @@ input, select {
   width: 50%;
   position: relative;
   margin-top: 0;
-  margin-left: 670px;
+  margin-left: 50%;
 }
 .card1{
   position: relative;
@@ -366,7 +366,7 @@ section{
   object-fit:cover;
   background-image: url(img/company.jpeg);
   background-size: cover;
-  flex: basis: 50%;
+  flex-basis: 50%;
   text-align:center;
 }
 .company-img{
@@ -399,7 +399,7 @@ color: #fff;
   background-image: url(img/recruit.jpg);
   padding-top: 500px;
   padding-bottom: 10px;
-  flex: basis: 50;
+  flex-basis: 50%;
 }
 #FAQ{
   background-color: black;
@@ -416,9 +416,9 @@ color: #fff;
   color: #FFF;
 }
 .FAQ2 p{
-  position: relative;
+  position: absolute;
   top: 40px;
-  left: 500px;
+  right: 420px;
   font-size: 15px;
   color: #fff;
 }
