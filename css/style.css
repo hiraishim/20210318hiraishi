@@ -149,45 +149,46 @@ input, select {
   line-height: 1; 
 }
 /*ニュース全体の設定*/
-.news{
-  position: relative;
-}
-.f-container1{
+
+.f-box1{
 	position: absolute;
   background-color: #fff;
   margin-top: 56%;
-  margin-left: 64%;
-  margin-right: 10%;
-  margin-bottom: 0px;
-  padding-top: 0;
-  padding-bottom: 40px;
-  padding-left: 10%;
-  padding-right: 300px;
-
+  margin-left: 60%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 500px;
 }
-
+.f-news1 h1{
+  position: absolute;
+  font-size: 14px;
+  color: #000;
+}
 .f-news1 p{
   position: absolute;
   font-size: 14px;
   color: #000;
 }
-.f-container2{
+
+.f-box2{
 	position: absolute;
   background-color: #000;
-  margin-top: 0; 
-  margin-left: 62%;
-  
+  margin-top: 56%; 
+  margin-left: 95%;
+  margin-right: 0%;
   margin-bottom: 0px;
   padding-top: 10px;
-  padding-bottom: 40px;
-  padding-left: 10%;
+  padding-bottom: 35px;
+  padding-left: 30px;
   padding-right: 20px;
 }
 .f-news2 p{
   position: absolute;
-  transform: translate(-50%, -50%);
+  top: 4px;
+  right: 2px;
   font-size: 14px;
-  background-color: #000;
   color: #FFF;
 }
 /*section1*/
