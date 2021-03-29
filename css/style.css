@@ -184,7 +184,7 @@ input, select {
 /*section1*/
 #about {
   width:100%;
-  bottom: 100px;
+ 
   margin:0%;
   background-color: #000;
   background-size:cover;
@@ -202,7 +202,7 @@ input, select {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 270px;
-  text-align: center;
+  text-align: left;
   color: #fff;
  }
  
@@ -210,7 +210,7 @@ input, select {
   margin-left: 270px;
   width: 750px;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
   color:#FFF
  }
 .mission p{
@@ -240,6 +240,7 @@ input, select {
 }
 #service {/*service*/
   background: rgb(241, 241, 241);
+  margin-top: 100px;
 }
 
 .section-title  {
@@ -347,76 +348,80 @@ input, select {
 }
 /*compayy*/
 #company{
-  background-color: #fff;
-}
-*{
-  box-sizing:boeder-box;
-  margin: 0;
-  padding: 0;
   position: relative;
- 
+  background-color: #fff;
+  padding-top: 30%;
 }
-section{
-  width: 100%;
-  padding-top: 0px;
-  padding-bottom: 40px;
-  margin: 0px;
-}
-.flex-container{
- display: flex; 
- justify-content: space-around;
-}
-.flex-item{
-  width: 500px; height: 100px;
+
+.company1{
+  position: absolute;
+  top: 30%; 
+  left: 0%; 
   object-fit:cover;
   background-image: url(img/company.jpeg);
   background-size: cover;
-  flex-basis: 50%;
-  text-align:center;
 }
 .company-img{
-  width: 500px;height: 100px;
+  width: 650px;height: 100px;
   object-fit: cover;
 }
-.recruit-img{
-  width:500px;height: 100px;
-  object-fit: cover;
+.recruit2{
+  position: absolute;
+  top:30%;
+  right: 0%;
+  object-fit:cover;
+  background-image: url(img/.recruit-img.jpg);
+  background-size: cover;
   
 }
-.flex-item h2{
+.recruit-img{
+  width:650px;height: 100px;
+  object-fit: cover;
+  
+  
+}
+.company1 h2{
  position: absolute;
- top:530px;
- left: 40%;
+ top:25px;
+ padding-left: 33%;
  font-size: 30px;
  font-weight: bold;
  color: #fff;
 }
-.flex-item p{
+.company1 p{
 position: absolute;
-top: 560px; left:310px;
+top: 60px; 
+padding-left: 40%;
 font-size: 15px;
 color: #fff;
 }
-
-.flex-item{
-  position: relative;
-  top: -300px;
-  width: 100%;
-  background-image: url(img/recruit.jpg);
-  padding-top: 500px;
-  padding-bottom: 10px;
-  flex-basis: 50%;
+.recruit2 h2{
+ position: absolute;
+ top: 25px;
+ padding-left:39%;
+ font-size: 30px;
+ font-weight: bold;
+ color: #fff;
+}
+.recruit2 p{
+  position: absolute;
+  top: 60px;
+  padding-left: 43%;
+  font-size: 15px;
+  color: #fff;
 }
 #FAQ{
   background-color: black;
+  background-position: center;
   width: 1000px;height: 100px;
   object-fit: cover;
-  margin-left: 10%;
   position: relative;
+  left: 15%;
+  top: 10%;
 }
 .FAQ1 p{
   position: absolute;
-  left: 100px;
+  left: 10%;
   top: 40px;
   font-size: 28px;
   color: #FFF;
@@ -424,7 +429,7 @@ color: #fff;
 .FAQ2 p{
   position: absolute;
   top: 40px;
-  right: 420px;
+  right: 50%;
   font-size: 15px;
   color: #fff;
 }
@@ -477,6 +482,22 @@ color: #fff;
   text-align: center;
   color:#FFF;
   font-size: 10px;
+}
+
+.border-toiawase p{
+  border-style: solid;
+  border-width: thin;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: 70%;
+  left: 47%;
+  padding-top: 10px;
+  font-size: 15px; 
+  color: #fff
+  
+
+
 }
 .footer {
   height: 70px;
