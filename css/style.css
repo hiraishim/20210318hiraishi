@@ -153,19 +153,14 @@ input, select {
 .f-box1{
 	position: absolute;
   background-color: #fff;
+  width: 400px;height: 50px;
   margin-top: 56%;
   margin-left: 60%;
   margin-bottom: 10px;
   padding-top: 10px;
-  padding-bottom: 100px;
   padding-left: 10px;
-  padding-right: 500px;
 }
-.f-news1 h1{
-  position: absolute;
-  font-size: 14px;
-  color: #000;
-}
+
 .f-news1 p{
   position: absolute;
   font-size: 14px;
@@ -175,14 +170,11 @@ input, select {
 .f-box2{
 	position: absolute;
   background-color: #000;
+  width: 80px;height: 50px;
   margin-top: 56%; 
-  margin-left: 95%;
-  margin-right: 0%;
-  margin-bottom: 0px;
+  margin-left: 90%;
   padding-top: 10px;
-  padding-bottom: 35px;
-  padding-left: 30px;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 .f-news2 p{
   position: absolute;
@@ -190,6 +182,7 @@ input, select {
   right: 2px;
   font-size: 14px;
   color: #FFF;
+ 
 }
 /*section1*/
 #about {
