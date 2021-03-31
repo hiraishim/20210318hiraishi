@@ -359,11 +359,10 @@ input, select {
  
 }
 .company1{
-  
-  background-image:url(..img/company.jpeg);
+  background-image:url("../img/company.jpeg");
   background-size: cover;
-  width: 500px;
-  height: 100px;
+  width: 40%;
+  height: 100%;
   margin-top: 100px;
   
 }
@@ -373,7 +372,8 @@ input, select {
  right: 0;
  margin: auto;
  padding-left: 28%;
-
+padding-top: 30px;
+padding-bottom: 5px;
  font-size: 30px;
  font-weight: bold;
  color: #fff;
@@ -384,15 +384,17 @@ left: 0;
 right: 0;
 margin: auto;
 padding-left: 33%;
+padding-bottom: 30px;
 font-size: 15px;
 color: #fff;
 }
 
 .recruit2{
   margin-top: 100px;
-  width: 500px;
-  height: 100px;
-  background-image: url(..img/.recruit.jpg);
+  margin-bottom: 100px;
+  width: 40%;
+  height: 100%;
+  background-image: url("../img/recruit.jpg");
   background-size: cover;
 }
 
@@ -404,6 +406,8 @@ color: #fff;
  right: 0;
  margin: auto;
  padding-left:40%;
+ padding-top: 30px;
+ padding-bottom: 5px;
  font-size: 30px;
  font-weight: bold;
  color: #fff;
@@ -415,6 +419,7 @@ color: #fff;
   right: 0;
   margin: auto;
   padding-left: 45%;
+  padding-bottom: 30px;
   font-size: 15px;
   color: #fff;
 }
@@ -433,13 +438,13 @@ color: #fff;
 .FAQ1 p{
   position: absolute;
   left: 10%;
-  top: 40px;
+  top: 38px;
   font-size: 28px;
   color: #FFF;
 }
 .FAQ2 p{
   position: absolute;
-  top: 40px;
+  top: 42px;
   right: 45%;
   font-size: 15px;
   color: #fff;
