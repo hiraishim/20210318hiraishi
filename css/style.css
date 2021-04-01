@@ -183,8 +183,7 @@ input, select {
 }
 /*section1*/
 #about {
-  width:100%;
- 
+  width:100%; height: 400px;
   margin:0%;
   background-color: #000;
   background-size:cover;
@@ -192,49 +191,46 @@ input, select {
 }
 .about-right {
   position: absolute;
-  right: 20px;
-  top: 100px;
-  display: flex;
-  justify-content: flex-end;
+  right: 5%;
+  top: 40%; 
+}
+.about-right img{
+  width: 400px;height: auto;
+  top: 20px;
+}
+.section-title{
+  position: absolute;
+  width: 68%;
+  left: 20%;
+  top: 30%;
 }
 .section-title h1 {
+  line-height: 3em; 
   font-size: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 180px;
   text-align: left;
   color: #fff;
  }
  
  .section-title p {
-  margin-left: 180px;
-  width: 750px;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 2em;
   text-align: left;
   color:#FFF
  }
 .mission p{
   margin-top: 50px;
-  margin-left: 180px;
+  margin-left: 0;
   margin-bottom: 70px;
   width: 100px;
   font-size: 14px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right:10px ;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right:20px ;
+  padding-bottom: 5px;
   background-color: #FFF;
   color: #000;
 }
 
-.about-right{
-  width:45%;
-}
-.about-right img{
-  position: absolute;
-  width: 400px;height: auto;
-  top: 20px;
-}
 .about-left ol{
   list-style-position: inside;
 }
@@ -243,25 +239,23 @@ input, select {
   margin-top: 100px;
 }
 
-.section-title  {
-  font-size: 20px;
+.section-title2 h1 {
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
-  padding: 10px 0;
-  margin: 0;
+  padding: 20px 0;
+  
 }
 .service-right img{
   width: 50%;
   position: relative;
-  margin-top: 0;
+  margin-top: 5%;
   margin-left: 50%;
 }
 .card1{
   position: relative;
   top: -300px;
-  left: 0;
-  right: 0;
-  margin: auto;
+  left: 25%;
   width: 350px;
   padding: 30px 30px 30px; /* 上30px 左右30px 下30px */
   color: #333;
@@ -306,10 +300,8 @@ input, select {
 }
 .card2{
   position: relative;
-  top: -300px;
-  right:0;
-  left:0;
-  margin: auto;
+  top: -250px;
+  right:-45%;
   width: 350px;
   padding: 30px 30px 30px; /* 上30px 左右30px 下30px */
   color: #333;
@@ -360,12 +352,12 @@ input, select {
 .company-recruit{
  display: flex;
  justify-content:space-between ;
- margin-bottom: 100px;
+ margin-bottom: 80px;
 }
 .company1{
   background-image:url("../img/company.jpeg");
   background-size: cover;
-  width: 40%;
+  width: 48%;
   height: 100%;
   margin-top: 100px;
   
@@ -375,10 +367,10 @@ input, select {
  left: 0;
  right: 0;
  margin: auto;
- padding-left: 28%;
-padding-top: 30px;
-padding-bottom: 5px;
- font-size: 30px;
+ padding-left: 33%;
+ padding-top: 60px;
+ padding-bottom: 10px;
+ font-size: 35px;
  font-weight: bold;
  color: #fff;
 }
@@ -387,16 +379,15 @@ padding-bottom: 5px;
 left: 0;
 right: 0;
 margin: auto;
-padding-left: 33%;
-padding-bottom: 30px;
-font-size: 15px;
+padding-left: 40%;
+padding-bottom: 60px;
+font-size: 20px;
 color: #fff;
 }
 
 .recruit2{
   margin-top: 100px;
-  
-  width: 40%;
+  width: 48%;
   height: 100%;
   background-image: url("../img/recruit.jpg");
   background-size: cover;
@@ -409,10 +400,10 @@ color: #fff;
  left: 0;
  right: 0;
  margin: auto;
- padding-left:40%;
- padding-top: 30px;
- padding-bottom: 5px;
- font-size: 30px;
+ padding-left:41%;
+ padding-top: 60px;
+ padding-bottom: 10px;
+ font-size: 35px;
  font-weight: bold;
  color: #fff;
 }
@@ -423,8 +414,8 @@ color: #fff;
   right: 0;
   margin: auto;
   padding-left: 45%;
-  padding-bottom: 30px;
-  font-size: 15px;
+  padding-bottom: 60px;
+  font-size: 20px;
   color: #fff;
 }
 #FAQ{
@@ -455,7 +446,7 @@ color: #fff;
 }
 #contact
  {
-  margin-top: 50px;
+  margin-top: 100px;
   height: 600px;width:100%;
   padding-top: 100px;
   object-fit: cover;
@@ -471,7 +462,6 @@ color: #fff;
   left: 0;
   right: 0;
   margin: auto;
-  
   padding-top: 100px;
   padding-bottom: 20px;
   text-align:center ;
@@ -480,7 +470,7 @@ color: #fff;
 }
 .phrase h2{
   position: absolute;
-  top: 30%;
+  top: 31%;
   left: 0;
   right: 0;
   margin: auto;
@@ -491,7 +481,7 @@ color: #fff;
 }
 .phrase h1{
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 0;
   right: 0%;
   margin: auto;
@@ -502,7 +492,7 @@ color: #fff;
 }
 .phrase p{
  position: absolute;
-  top: 50%;
+  top: 43%;
   left: 0;
   right: 0;
   margin: auto;
@@ -515,10 +505,10 @@ color: #fff;
 .border-toiawase p{
   border-style: solid;
   border-width: thin;
-  width: 100px;
+  width: 120px;
   height: 20px;
   position: absolute;
-  top: 70%;
+  top: 58%;
   left: 0;
   right: 0;
   margin: auto;
