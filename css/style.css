@@ -259,7 +259,9 @@ input, select {
 .card1{
   position: relative;
   top: -300px;
-  left: 400px;
+  left: 0;
+  right: 0;
+  margin: auto;
   width: 350px;
   padding: 30px 30px 30px; /* 上30px 左右30px 下30px */
   color: #333;
@@ -305,7 +307,9 @@ input, select {
 .card2{
   position: relative;
   top: -300px;
-  left:600px;
+  right:0;
+  left:0;
+  margin: auto;
   width: 350px;
   padding: 30px 30px 30px; /* 上30px 左右30px 下30px */
   color: #333;
@@ -356,7 +360,7 @@ input, select {
 .company-recruit{
  display: flex;
  justify-content:space-between ;
- 
+ margin-bottom: 100px;
 }
 .company1{
   background-image:url("../img/company.jpeg");
@@ -391,7 +395,7 @@ color: #fff;
 
 .recruit2{
   margin-top: 100px;
-  margin-bottom: 100px;
+  
   width: 40%;
   height: 100%;
   background-image: url("../img/recruit.jpg");
