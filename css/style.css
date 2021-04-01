@@ -293,7 +293,7 @@ input, select {
   display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
   text-align: center;
   margin: 10px 0;
-  margin-left: 100px;
+  margin-left: 200px;
   font-size: 14px;
   color: #000;
   border: 1px soloid #000;
