@@ -201,13 +201,13 @@ input, select {
   font-size: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 270px;
+  margin-left: 180px;
   text-align: left;
   color: #fff;
  }
  
  .section-title p {
-  margin-left: 270px;
+  margin-left: 180px;
   width: 750px;
   font-size: 14px;
   text-align: left;
@@ -215,7 +215,7 @@ input, select {
  }
 .mission p{
   margin-top: 50px;
-  margin-left: 270px;
+  margin-left: 180px;
   margin-bottom: 70px;
   width: 100px;
   font-size: 14px;
