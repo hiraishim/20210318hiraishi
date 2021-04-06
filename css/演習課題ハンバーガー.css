@@ -672,7 +672,7 @@ select {
     width: 80%;
   }
 
-  .business-wrap {
+  .abou-wrap {
     flex-wrap: wrap;
   }
 
@@ -680,7 +680,7 @@ select {
     width: 80%;
     margin: 0 auto;
   }
-  .service{
+  #service{
     flex-wrap: wrap;
   }
   .card1{
@@ -688,18 +688,16 @@ select {
   }
   .service-right{
     width:80%;
-    margin: 0 auto;
   }
 
   .service-left{
-    width: 80%;
-    margin: 0 auto;
+    width: 80%;  
   }
   .company-recruit{
     flex-wrap: wrap;
   }
+  .conmpany1
   .recruit2{
     width: 80%;
-    margin: 0 auto;
   }
 }
