@@ -683,21 +683,37 @@ select {
   #service{
     flex-wrap: wrap;
   }
-  .card1{
+  .card1
+  .card2
+  {
     display: block;
   }
   .service-right{
     width:80%;
+    margin 0 auto;
   }
 
   .service-left{
-    width: 80%;  
+    width: 80%;
+    margin: 0 auto;  
   }
   .company-recruit{
     flex-wrap: wrap;
   }
   .conmpany1
   .recruit2{
-    width: 80%;
+    width: 100%;
+    margin: 0% auto;
   }
+  #FAQ{
+    flex-wrap: wrap;
+  }
+   .FAQ1{
+     width: 80%;
+     margin: 0 auto;
+   }
+   .FAQ2{
+     width:  80%;
+     margin: 0 auto;
+   }
 }
