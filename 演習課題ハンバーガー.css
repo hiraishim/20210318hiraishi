@@ -1,0 +1,703 @@
+@charset "utf-8";
+
+/* リセットcss */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* その他のスタイルは以下に記述していきます */
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+#eyecatch {
+  height: 800px;
+  background: url(../img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.copy p {
+  position: absolute;
+  top: 500px;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-style: italic;
+  font-family: Times New Roman, "ＭＳ Ｐゴシック";
+  font-weight: bold;
+  color: #ffff;
+  line-height: 1;
+}
+/*ニュース全体の設定*/
+
+.f-box1 {
+  position: absolute;
+  background-color: #fff;
+  width: 400px;
+  height: 50px;
+  right: 7%;
+  bottom: 0%;
+}
+
+.f-news1 p {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  font-size: 14px;
+  color: #000;
+}
+
+.f-box2 {
+  position: absolute;
+  background-color: #000;
+  width: 80px;
+  height: 50px;
+  right: 0;
+  bottom: 0;
+}
+.f-news2 p {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 14px;
+  color: #fff;
+}
+/*section1*/
+#about {
+  width: 100%;
+  height: 400px;
+  margin: 0%;
+  background-color: #000;
+  background-size: cover;
+  position: relative;
+}
+.about-right {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+}
+.about-right img {
+  width: 400px;
+  height: auto;
+  top: 20px;
+}
+.section-title {
+  position: absolute;
+  width: 68%;
+  left: 20%;
+  top: 30%;
+}
+.section-title h1 {
+  line-height: 3em;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-title p {
+  font-size: 15px;
+  line-height: 2em;
+  text-align: left;
+  color: #fff;
+}
+.mission p {
+  margin-top: 50px;
+  margin-left: 0;
+  margin-bottom: 70px;
+  width: 100px;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+.about-left ol {
+  list-style-position: inside;
+}
+#service {
+  /*service*/
+  background: rgb(241, 241, 241);
+  margin-top: 100px;
+}
+
+.section-title2 h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+}
+.service-right img {
+  width: 50%;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 50%;
+}
+.card1 {
+  position: relative;
+  top: -300px;
+  left: 25%;
+  width: 350px;
+  padding: 30px 30px 30px; /* 上30px 左右30px 下30px */
+  color: #333;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+.title,
+.text1,
+.text2 {
+  margin: 0;
+}
+
+.text1 {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #000;
+}
+.text2 {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #000;
+}
+.link {
+  width: 100px;
+  display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
+  text-align: center;
+  margin: 10px 0;
+  margin-left: 200px;
+  font-size: 14px;
+  color: #000;
+  border: 1px soloid #000;
+}
+
+.service-left img {
+  width: 50%;
+  position: relative;
+  top: 10px;
+}
+.card2 {
+  position: relative;
+  top: -250px;
+  right: -45%;
+  width: 350px;
+  padding: 30px 30px 30px; /* 上30px 左右30px 下30px */
+  color: #333;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+.title2,
+.text3,
+.text4 {
+  margin: 0;
+}
+
+.text3 {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #000;
+}
+.text4 {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #000;
+}
+.link {
+  padding: 5px 20px; /* 上下に5px、左右に20px */
+  font-size: 14px;
+  color: #000;
+  text-decoration: none; /* テキストのスタイルを消す */
+  border: 1px #000 solid; /* 境界線を引く */
+  border-radius: 3px; /* 要素の角を丸くする */
+  transition: 0.4s ease; /* スタイルが変化する時間 */
+}
+
+.link:hover {
+  color: #fff;
+  background: #d7ba7b;
+}
+/*compayy*/
+
+.company-area {
+  background-color: #fff;
+}
+.company-recruit {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.company1 {
+  background-image: url("../img/company.jpeg");
+  background-size: cover;
+  width: 48%;
+  height: 100%;
+  margin-top: 100px;
+}
+.company1 h2 {
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-left: 33%;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+.company1 p {
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-left: 40%;
+  padding-bottom: 60px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.recruit2 {
+  margin-top: 100px;
+  width: 48%;
+  height: 100%;
+  background-image: url("../img/recruit.jpg");
+  background-size: cover;
+}
+
+.recruit2 h2 {
+  top: 25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-left: 41%;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+.recruit2 p {
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-left: 45%;
+  padding-bottom: 60px;
+  font-size: 20px;
+  color: #fff;
+}
+#FAQ {
+  background-color: black;
+  background-position: center;
+  width: 50%;
+  height: 100px;
+  object-fit: cover;
+  position: relative;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  top: 10%;
+}
+.FAQ1 p {
+  position: absolute;
+  left: 10%;
+  top: 38px;
+  font-size: 28px;
+  color: #fff;
+}
+.FAQ2 p {
+  position: absolute;
+  top: 42px;
+  right: 45%;
+  font-size: 15px;
+  color: #fff;
+}
+#contact {
+  margin-top: 100px;
+  height: 600px;
+  width: 100%;
+  padding-top: 100px;
+  object-fit: cover;
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.phrase h3 {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+.phrase h2 {
+  position: absolute;
+  top: 31%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: top 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+.phrase h1 {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0%;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.phrase p {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+}
+
+.border-toiawase p {
+  border-style: solid;
+  border-width: thin;
+  width: 120px;
+  height: 20px;
+  position: absolute;
+  top: 58%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 15px;
+  color: #fff;
+}
+.footer {
+  height: 70px;
+  background: #000;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.footer-nav ul {
+  display: flex;
+}
+
+.footer-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.footer-nav a {
+  color: #f2f2f2;
+}
+
+.copyright {
+  height: 15px;
+  background: black;
+  text-align: center;
+}
+.copyright p {
+  color: #fff;
+  font-size: 8px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #hamburger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    top: 15px;
+    right: 20px;
+    transition: 0.4s;
+    width: 40px;
+  }
+
+  #hamburger span {
+    position: absolute;
+    left: 2px;
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.8s;
+  }
+
+  #hamburger span:nth-of-type(1) {
+    top: 10px; /* ハンバーガーメニューの1本目の棒 */
+  }
+
+  #hamburger span:nth-of-type(2) {
+    top: 20px; /* ハンバーガーメニューの2本目の棒 */
+  }
+
+  #hamburger span:nth-of-type(3) {
+    top: 30px; /* ハンバーガーメニューの3本目の棒 */
+  }
+
+  .header-nav {
+    display: none; /* デスクトップのナビを消す */
+  }
+
+  .f-box1 {
+    flex-wrap: wrap;
+  }
+  .f-box2{
+    flex-wrap: wrap;
+  }
+  .f-news1,
+  .f-news2 {
+    width: 80%;
+  }
+
+  .abou-wrap {
+    flex-wrap: wrap;
+  }
+
+  .about-right {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #service{
+    flex-wrap: wrap;
+  }
+  .card1{
+    display: block;
+  }
+  .service-right{
+    width:80%;
+  }
+
+  .service-left{
+    width: 80%;  
+  }
+  .company-recruit{
+    flex-wrap: wrap;
+  }
+  .conmpany1
+  .recruit2{
+    width: 80%;
+  }
+}
