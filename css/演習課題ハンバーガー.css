@@ -254,43 +254,27 @@ select {
   color: #fff;
 }
 /*section1*/
-#about {
-  width: 100%;
-  height: 400px;
-  margin: 0%;
-  background-color: #000;
-  background-size: cover;
-  position: relative;
+.about{
+  position:relative;
+  background: #000;
+  margin-bottom: 10%;
+  z-index: 999;
 }
-.about-right {
-  position: absolute;
-  right: 5%;
-  top: 40%;
-}
-.about-right img {
-  width: 400px;
-  height: auto;
-  top: 20px;
-}
-.section-title {
-  position: absolute;
-  width: 68%;
-  left: 20%;
-  top: 30%;
-}
-.section-title h1 {
-  line-height: 3em;
-  font-size: 20px;
-  text-align: left;
-  color: #fff;
+.about-content{
+  padding: 10% 0 10% 20%;
+  box-sizing: border-box;
+  width:70%;
 }
 
-.section-title p {
-  font-size: 15px;
-  line-height: 2em;
-  text-align: left;
-  color: #fff;
+.section-title,
+.section-text {
+ margin-bottom: 30px;
+ color: #fff;
 }
+.section-title {
+  font-size: 30px;
+}
+
 .mission p {
   margin-top: 50px;
   margin-left: 0;
@@ -303,6 +287,13 @@ select {
   padding-bottom: 5px;
   background-color: #fff;
   color: #000;
+}
+.about-right-img {
+  width: 10%;
+  position: absolute;
+  bottom: -10%;
+  right: 20%;
+  z-index: -999;
 }
 
 .about-left ol {
@@ -477,7 +468,7 @@ select {
   left: 0;
   right: 0;
   margin: auto;
-  padding-left: 45%;
+  padding-left:45% ;
   padding-bottom: 60px;
   font-size: 20px;
   color: #fff;
@@ -660,7 +651,14 @@ select {
   .header-nav {
     display: none; /* デスクトップのナビを消す */
   }
-
+  .copy p{
+   top: 50%;
+   left: 48%;
+   right: -20%;
+   font-size: 3em;
+   text-align: center;
+   
+  }
   .f-box1 {
     flex-wrap: wrap;
   }
@@ -672,32 +670,113 @@ select {
     width: 80%;
   }
 
-  .abou-wrap {
+  .about-right-img {
     flex-wrap: wrap;
   }
 
-  .about-right {
-    width: 80%;
+  .about-right-img {
+    width: 100%;
+    height: auto;
+   position: static;
     margin: 0 auto;
+  
   }
+
+  .section-title {
+    line-height: 150%;
+    position: static;
+    width: 100%;
+
+  }
+  .section-text{
+    line-height: 150%;
+    position: static;
+    width: 100%;
+  }  
+
+  
+  
   #service{
     flex-wrap: wrap;
   }
-  .card1{
-    display: block;
+  .service-right img{
+    width:100%;
+    max-width: 100%;
+    height: auto;
+    position: static;
+    
+    margin: 0 auto;
   }
-  .service-right{
-    width:80%;
+   .service-left img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: static;
+    
+    margin: 0 auto;
+  }
+  .card1{
+    position: static;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card2{
+    position: static;
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .service-left{
-    width: 80%;  
+  .link{
+   margin-left: 50%;
   }
-  .company-recruit{
-    flex-wrap: wrap;
+  .title{
+    top: 50%;
+    left: 50%;
   }
+  .title2{
+    top: 50%;
+    left: 50%;
+  }
+  
+  .company-recruit {
+  display:block
+}
+ 
   .conmpany1
   .recruit2{
-    width: 80%;
+    width: 100%;
+    margin: 0 auto;
   }
-}
+  #FAQ{
+    width: 100%;
+    background-size: cover
+  }
+
+  .phrase h3{
+    font-size: 3em;
+  }
+
+  .phrase p{
+    line-height: 200%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .border-toiawase P{
+    top: 70%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+  }
+  .footer-nav{
+    display: none;
+  }
+  .footer-logo{
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+} 
+
+
+
+
