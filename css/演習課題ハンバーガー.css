@@ -669,61 +669,76 @@ select {
   .f-news2 {
     width: 80%;
   }
+  .about-content{
+    padding: 10% 5% 10% 15%;
+  }
+  .about-right-img{
+   width: 100px;
+   height: auto;
+  }
+  
 
   .about-right-img {
     flex-wrap: wrap;
+    left:4em;
   }
-
-  .about-right-img {
-    width: 100%;
-    height: auto;
-   position: static;
-    margin: 0 auto;
-  
+   /*service*/
+  .section-title2{
+    font-size:3em;
   }
-
   .section-title {
     line-height: 150%;
     position: static;
-    width: 100%;
+    top:10%;
+    width: 150%;
 
   }
   .section-text{
     line-height: 150%;
     position: static;
-    width: 100%;
+    width: 150%;
   }  
 
   
   
   #service{
     flex-wrap: wrap;
+    margin-top: 10%;
   }
+  
+  
   .service-right img{
-    width:100%;
+    width:90%;
+    padding-left: 5%;
     max-width: 100%;
     height: auto;
     position: static;
-    
     margin: 0 auto;
   }
    .service-left img{
-    width: 100%;
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 10%;
     max-width: 100%;
     height: auto;
-    position: static;
-    
+    position: static; 
     margin: 0 auto;
   }
   .card1{
     position: static;
-    width: 80%;
-    margin: 0 auto;
+    width: 74%;
+    margin-left:5%;
   }
+
   .card2{
     position: static;
-    width: 80%;
-    margin: 0 auto;
+    width: 74%;
+    margin-left:5%;
+    margin-bottom: 10%;
+  }
+
+  .text2,.text4{
+    line-height: 150%;
   }
 
   .link{
@@ -742,16 +757,25 @@ select {
   display:block
 }
  
-  .conmpany1
+  .company1,
   .recruit2{
     width: 100%;
     margin: 0 auto;
   }
+
   #FAQ{
     width: 100%;
     background-size: cover
   }
 
+  .FAQ2 p{
+    position: absolute;
+    left: 30%;
+  }
+  
+   #contact{
+     margin-top: 2em;
+   }
   .phrase h3{
     font-size: 3em;
   }
@@ -765,6 +789,7 @@ select {
     top: 70%;
     left: 0%;
     right: 0%;
+    padding-bottom: 1em;
     margin: auto;
   }
   .footer-nav{
@@ -773,6 +798,7 @@ select {
   .footer-logo{
     left: 0;
     right: 0;
+    font-size: 1em;
     margin: auto;
   }
 } 
