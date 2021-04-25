@@ -261,15 +261,15 @@ select {
   z-index: 999;
 }
 .about-content{
-  padding: 10% 0 10% 20%;
+  padding: 10% 0 10% 10%;
   box-sizing: border-box;
-  width:70%;
+  width:90%;
 }
 .about-right-img {
-  width: 10%;
+  width: 40%;
   position: absolute;
   bottom: -10%;
-  right: 20%;
+  right: 5%;
   z-index: -999;
 }
 .about-left ol {
@@ -645,6 +645,7 @@ select {
   }
   .f-box1 {
     flex-wrap: wrap;
+    left:0%;
   }
   .f-box2{
     flex-wrap: wrap;
@@ -656,16 +657,17 @@ select {
 
 .about-content{
     padding: 10% 5% 10% 15%;
+    width:70%;
   }
   .about-right-img{
-   width: 100px;
+   width: 45%;
    height: auto;
   }
   
 
   .about-right-img {
     flex-wrap: wrap;
-    left:4em;
+    
   }
    /*service*/
   .section-title2{
