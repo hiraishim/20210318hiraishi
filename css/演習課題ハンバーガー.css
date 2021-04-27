@@ -220,7 +220,9 @@ select {
   line-height: 1;
 }
 /*ニュース全体の設定*/
-
+#news{
+  position: relative;
+}
 .f-box1 {
   position: absolute;
   background-color: #fff;
@@ -411,7 +413,7 @@ select {
 .company-recruit {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 10%;
 }
 .company1 {
   background-image: url("../img/company.jpeg");
@@ -654,7 +656,9 @@ select {
   .f-news2 {
     width: 80%;
   }
-
+  .f-news1 p{
+    width: 60%;
+  }
 .about-content{
     padding: 10% 5% 10% 15%;
     width:70%;
