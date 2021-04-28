@@ -812,7 +812,7 @@ select {
   }
 
   .copyright p{
-   text-align: justify;
+   font-size: large;
   }
 } 
 
