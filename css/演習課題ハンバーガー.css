@@ -646,6 +646,7 @@ select {
    
   }
   .f-box1 {
+    width: initial;
     flex-wrap: wrap;
     left:0%;
   }
@@ -808,6 +809,10 @@ select {
     right: 0;
     font-size: 1em;
     margin: auto;
+  }
+
+  .copyright p{
+   text-align: justify;
   }
 } 
 
