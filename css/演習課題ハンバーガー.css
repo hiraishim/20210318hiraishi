@@ -822,7 +822,7 @@ select {
   }
 
   .copyright p{
-   font-size: large;
+   letter-spacing: 0.3em;
   }
 } 
 
