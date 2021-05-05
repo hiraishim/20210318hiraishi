@@ -704,16 +704,16 @@ select {
   
   
   .service-right img{
-    width:90%;
-    padding-left: 5%;
+    width:75%;
+    padding-left:12.5%;
     max-width: 100%;
     height: auto;
     position: static;
     margin: 0 auto;
   }
    .service-left img{
-    width: 90%;
-    padding-left: 5%;
+    width: 75%;
+    padding-left:12.5%;
     padding-top: 10%;
     max-width: 100%;
     height: auto;
@@ -726,7 +726,6 @@ select {
     width: 75%;
     margin-left:auto;
     margin-right: auto;
-
   }
 
   .card2{
